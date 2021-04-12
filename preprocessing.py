@@ -41,7 +41,7 @@ def spacing_spell_checker(pkl_path, save_path, file_name):
             except :
                 pass
     
-        break
+        
 
     os.makedirs(save_path, exist_ok=True)   # 저장 경로가 없으면 생성
     with open(os.path.join(save_path, (file_name + '_checked.pickle')), 'wb') as f:
